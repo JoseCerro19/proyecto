@@ -1,0 +1,26 @@
+[
+  {
+    "correo":"jose3747831@gmail.com",
+    "nombre":"jose",
+    "contraseña":"123",
+    "roles": "admin"
+  },
+  {
+    "correo":"diegova@gmail.com",
+    "nombre":"diego",
+    "contraseña":"1234",
+    "roles": "admin"  
+  },
+  {
+    "correo":"danielafo@gmail.com",
+    "nombre":"daniela",
+    "contraseña":"12345",
+    "roles":"usuario"      
+  },
+  {
+    "correo":"kevinalva@gmail.com",
+    "nombre":"kevin",
+    "contraseña":"123456",
+    "roles":"usuario"
+  }
+]

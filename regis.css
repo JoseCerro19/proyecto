@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; /* Sin márgenes en el cuerpo */
+    padding: 0; /* Sin relleno en el cuerpo */
+    background: url(''); /* Fondo de la página */
+    background-size: cover; /* Ajustar el fondo para cubrir */
+    display: flex; /* Utilizar el modelo de caja flexible */
+    flex-direction: column; /* Organizar los elementos en columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    justify-content: center; /* Centrar los elementos verticalmente */
+    height: 100vh; /* Tamaño del cuerpo de la página */
+    color: #fff; /* Color del texto */
+}
+
+/* Estilos para el encabezado y el pie de página */
+header, footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semitransparente */
+    width: 95%; /* Ancho del 95% */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espacio alrededor del texto */
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex; /* Utilizar el modelo de caja flexible */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    height: 100vh; /* Tamaño del contenido principal */
+}
+
+/* Estilos para el contenedor de registro */
+.registro-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Color de fondo semitransparente */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 20px; /* Espacio alrededor del contenido */
+    width: 300px; /* Ancho del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra alrededor del contenedor */
+    margin: 20px; /* Margen exterior */
+}
+
+/* Estilos para los títulos */
+h2 {
+    margin-bottom: 20px; /* Espacio adicional debajo del título */
+}
+
+/* Estilos para los grupos de formularios */
+.formulario {
+    margin-bottom: 15px; /* Espacio adicional entre los grupos */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilos para las etiquetas de los campos de entrada */
+.formulario label {
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 5px; /* Espacio adicional debajo de la etiqueta */
+    display: block; /* Mostrar en una línea separada */
+}
+
+/* Estilos para los campos de entrada */
+.formulario input {
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 3px; /* Borde redondeado */
+    padding: 10px; /* Relleno del campo de entrada */
+    width: 100%; /* Ancho del campo de entrada */
+    box-sizing: border-box; /* Incluir el relleno en el tamaño total */
+}
+
+/* Estilos para el botón de registro */
+.registrarse {
+    background-color: #28a745; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espacio alrededor del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor en forma de mano */
+    width: 100%; /* Ancho del botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Estilos para el botón de registro al pasar el cursor */
+.registrarse:hover {
+    background-color: #218838; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+/* Estilos para el párrafo dentro del contenedor de registro */
+.registro-container p {
+    margin-top: 15px; /* Espacio adicional en la parte superior del párrafo */
+}
+
+/* Estilos para los enlaces dentro del contenedor de registro */
+.registro-container a {
+    color: #28a745; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para los enlaces al pasar el cursor */
+.registro-container a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
